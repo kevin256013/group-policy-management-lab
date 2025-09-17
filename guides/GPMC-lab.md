@@ -98,3 +98,6 @@
 5. Select "All Removable Storage classes: Deny all access", select "Enabled", click "Apply" and "OK"
 ![USB Devices Disabled](../docs/screenshots/disable-usb-devices-gpo-3.png)
 ![USB Devices Disabled](../docs/screenshots/disable-usb-devices-gpo-4.png)
+
+## Applying and Testing GPO
+
