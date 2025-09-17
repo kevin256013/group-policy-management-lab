@@ -1,6 +1,8 @@
 # GPMC (Group Policy Management) Lab
 
-## Step 1: Navigating Group Policy Object's (GPO's)
+## Creating and Setting up GPO
+
+### Step 1: Navigating Group Policy Object's (GPO's)
 
 1. In VM, open Group Policy Management, and elect your AD domain
 ![GPO Creation](../docs/screenshots/gpo-creation.png)
@@ -12,7 +14,7 @@
     - Computer Configuration - settings that apply to the whole computer.
     - User Configuration - settings that apply only to a specific user account.
 
-## Step 2: Create/Setup a GPO (Password Policy) - To enforce strong passwords and enhance security
+### Step 2: Create/Setup a GPO (Password Policy) - To enforce strong passwords and enhance security
 
 1. Open Group Policy Management, right-click domain name -> select "Create a GPO in this domain, and Link it here..."
 2. Create GPO name (Use Descriptive Naming)
@@ -36,7 +38,7 @@
 8. On the Policy Setting (Right Column) all changes to poicy are visible
 ![Password GPO](../docs/screenshots/password-gpo-7.png)
 
-## Step 3: Create/Setup a GPO (Drive Mapping Policy) - Map network drives for users when they log in
+### Step 3: Create/Setup a GPO (Drive Mapping Policy) - Map network drives for users when they log in
 
 1. In VM, open Group Policy Management, right-click domain name -> select "Create a GPO in this domain, and Link it here..."
 2. Create GPO name (Use Descriptive Naming)
@@ -53,7 +55,7 @@
 ![Drive Mapping GPO](../docs/screenshots/drive-mapping-gpo-3.png)
 ![Drive Mapping GPO](../docs/screenshots/drive-mapping-gpo-4.png)
 
-## Step 4: Create/Setup a GPO (Desktop Wallpaper Policy) - Set a default desktop wallpaper for all users
+### Step 4: Create/Setup a GPO (Desktop Wallpaper Policy) - Set a default desktop wallpaper for all users
 
 1. In VM, open Group Policy Management, right-click domain name -> select "Create a GPO in this domain, and Link it here..."
 2. Create GPO name (Use Descriptive Naming)
@@ -67,7 +69,7 @@
 5. Select "Desktop Wallpaper", select "Enabled", fill in Wallpaper Name with path of wallpaper, click "Apply" and "OK"
 ![Desktop Wallpaper GPO](../docs/screenshots/desktop-wallpaper-gpo-3.png)
 
-## Step 5: Create/Setup a GPO (Restrict Control Panel) - Prevent users from accessing the Control Panel 
+### Step 5: Create/Setup a GPO (Restrict Control Panel) - Prevent users from accessing the Control Panel 
 
 1. In VM, open Group Policy Management, right-click domain name -> select "Create a GPO in this domain, and Link it here..."
 2. Create GPO name (Use Descriptive Naming)
@@ -82,7 +84,7 @@
 ![Control Panel Restriction](../docs/screenshots/restrict-control-panel-gpo-3.png)
 ![Control Panel Restriction](../docs/screenshots/restrict-control-panel-gpo-4.png)
 
-## Step 6: Create/Setup a GPO (Disable USB Storage) - Prevent users from using USB storage devices
+### Step 6: Create/Setup a GPO (Disable USB Storage) - Prevent users from using USB storage devices
 
 1. In VM, open Group Policy Management, right-click domain name -> select "Create a GPO in this domain, and Link it here..."
 2. Create GPO name (Use Descriptive Naming)
