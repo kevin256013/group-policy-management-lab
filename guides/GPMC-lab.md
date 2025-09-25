@@ -1,6 +1,6 @@
 # GPMC (Group Policy Management) Lab
 
-## Creating and Setting up GPO
+## Creating and Setting up GPO in Windows Server VM
 
 ### Step 1: Navigating Group Policy Object's (GPO's)
 
@@ -99,5 +99,29 @@
 ![USB Devices Disabled](../docs/screenshots/disable-usb-devices-gpo-3.png)
 ![USB Devices Disabled](../docs/screenshots/disable-usb-devices-gpo-4.png)
 
-## Applying and Testing GPO
+## Applying and Testing GPO in Windows Server VM and Client Server
 
+### 1. Applying GPO's in Windows Server VM
+
+1. In VM, open Group Policy Management, in Group Policy Objects, drag-drop the created policies to their respective OU's (Ex: Users: Drive Mapping and Restrict Control Policy)
+![Apply GPO](../docs/screenshots/apply-gpo.png)
+![Apply GPO](../docs/screenshots/apply-gpo-2.png)
+
+### 2. Move Computer to a Respective OU in Windows Server VM
+
+1. In VM, open Active Directory Users and Computers -> Domain Name (Ex: lab.local) -> Computer
+![Move Computer To OU](../docs/screenshots/move-comp.png)
+
+2. Right-click on Computer Name (Ex: COMP01) -> Select "Move", and transfer computer to respective OU Computer
+![Move Computer To OU](../docs/screenshots/move-comp-2.png)
+![Move Computer To OU](../docs/screenshots/move-comp-3.png)
+
+### 3. Testing GPO's in Windows Enterprise VM (Client Server)
+
+1. GP Update takes up to 90 minutes to update in Client Server
+2. In VM, navigate to CMD and type following script to force update
+![Test GPO](../docs/screenshots/test-gpo.png)
+
+3. To Test GPO(Control Panel Restriction), navigate to Control Panel and this message should pop up, which means our Restrict Control Panel Policy is successful!
+![Test GPO](../docs/screenshots/test-gpo-2.png)
+![Test GPO](../docs/screenshots/test-gpo-3.png)

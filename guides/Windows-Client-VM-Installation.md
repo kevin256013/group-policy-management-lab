@@ -16,4 +16,12 @@
 4. Power on Virtual Machine and press Any Key To start
 ![VM Windows Client Installation](../docs/screenshots/windows-client-installation-2.png)
 
+5. Turn on VM, proceed with Windows setup
+6. In Windows setup, proceed with Custom installation and Install Windows
+![VM Windows Client Installation](../docs/screenshots/windows-client-installation-4.png)
 
+7. After setup complete, select Domain join instead
+![VM Windows Client Installation](../docs/screenshots/windows-client-installation-5.png)
+
+8. To finish setup, create account with your credentials, and log-in
+![VM Windows Client Installation](../docs/screenshots/windows-client-installation-6.png)
