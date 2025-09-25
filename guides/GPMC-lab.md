@@ -119,7 +119,9 @@
 ### 3. Testing GPO's in Windows Enterprise VM (Client Server)
 
 1. GP Update takes up to 90 minutes to update in Client Server
-2. In VM, navigate to CMD and type following script to force update
+
+2. In VM, navigate to CMD and type following script to force update  
+
 ![Test GPO](../docs/screenshots/test-gpo.png)
 
 3. To Test GPO(Control Panel Restriction), navigate to Control Panel and this message should pop up, which means our Restrict Control Panel Policy is successful!
